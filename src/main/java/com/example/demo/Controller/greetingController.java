@@ -12,4 +12,9 @@ public class greetingController {
         model.addAttribute("name",name);
         return "greeting";
     }
+//    @GetMapping("/")
+//    public String index(){
+//        return "index";
+//    }
 }
+
